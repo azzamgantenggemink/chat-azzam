@@ -2,14 +2,24 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f6fff8;
+  --foreground: #1c2f26;
   --navbar-height: 4rem; /* 64px = h-16 */
+  --brand-green: #1dbb6b;
+  --brand-dark-green: #118d58;
+  --brand-red: #dd4a3c;
+  --brand-red-soft: #fceae8;
+  --panel: #ffffff;
+  --panel-soft: #effaf4;
+  --border: rgba(17, 141, 88, 0.12);
 }
 
 .dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #0b1220;
+  --foreground: #edfdf4;
+  --panel: #101b2d;
+  --panel-soft: #132235;
+  --border: rgba(136, 255, 199, 0.16);
 }
 
 @theme inline {
@@ -21,8 +31,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0b1220;
+    --foreground: #edfdf4;
   }
 }
 
@@ -33,12 +43,20 @@ html, body {
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top, rgba(29, 187, 107, 0.12), transparent 28%),
+    linear-gradient(180deg, #f7fff9 0%, #eefbf3 100%);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   /* iOS safe area support */
   padding-top: env(safe-area-inset-top);
   padding-bottom: env(safe-area-inset-bottom);
+}
+
+.dark body {
+  background:
+    radial-gradient(circle at top, rgba(29, 187, 107, 0.18), transparent 24%),
+    linear-gradient(180deg, #0b1220 0%, #101a2b 100%);
 }
 
 /* Ensure fixed nav always on top */

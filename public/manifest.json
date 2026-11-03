@@ -1,13 +1,13 @@
 {
-  "name": "Sontoloyo AI",
-  "short_name": "Sontoloyo AI",
-  "description": "Sontoloyo AI - AI Chatbot untuk blog adi-muhamad.my.id",
+  "name": "Azzamgantenkgemink AI Asisten",
+  "short_name": "Azzam AI",
+  "description": "Azzamgantenkgemink AI Asisten - asisten digital modern dengan tema hijau dan merah.",
   "display": "standalone",
   "start_url": "/",
   "scope": "/",
   "orientation": "portrait",
-  "theme_color": "#2563eb",
-  "background_color": "#0f172a",
+  "theme_color": "#1dbb6b",
+  "background_color": "#f6fff8",
   "categories": ["productivity", "utilities"],
   "icons": [
     {

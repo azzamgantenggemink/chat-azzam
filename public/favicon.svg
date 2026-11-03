@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Azzamgantenkgemink AI Asisten icon">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#1dbb6b"/>
+      <stop offset="55%" stop-color="#0d8f62"/>
+      <stop offset="100%" stop-color="#c93d33"/>
+    </linearGradient>
+    <linearGradient id="visor" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#effcf4"/>
+      <stop offset="100%" stop-color="#d8fce8"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+  <circle cx="129" cy="94" r="48" fill="#f8fff9" opacity="0.96"/>
+  <rect x="73" y="128" width="110" height="57" rx="20" fill="#f8fff9" opacity="0.96"/>
+  <rect x="87" y="142" width="82" height="20" rx="10" fill="url(#visor)"/>
+  <path d="M96 166h64" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="103" cy="96" r="5" fill="#1bb76d"/>
+  <circle cx="155" cy="96" r="5" fill="#e95e4b"/>
+  <path d="M108 120c8 9 31 9 39 0" stroke="#0f172a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M70 150c-18 14-26 28-28 49" stroke="#e74d3d" stroke-width="9" stroke-linecap="round"/>
+  <path d="M186 150c18 14 26 28 28 49" stroke="#1bb76d" stroke-width="9" stroke-linecap="round"/>
+  <path d="M88 204h80" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M118 48l12-18 12 18" stroke="#ffefe9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="65" cy="82" r="8" fill="#ffe7e2" opacity="0.9"/>
+  <circle cx="193" cy="82" r="8" fill="#dffbe9" opacity="0.9"/>
+</svg>
